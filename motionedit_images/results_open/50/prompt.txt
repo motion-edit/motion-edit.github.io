@@ -1,0 +1,1 @@
+Change the device from a glowing blue state to a non-glowing, muted light blue/grey state, and turn off the blue indicator lights on the button.

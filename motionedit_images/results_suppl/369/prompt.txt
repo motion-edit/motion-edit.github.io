@@ -1,0 +1,1 @@
+Change the person's pose: lift the torso to an upright position, extend the right arm straight out to the side, and extend the left arm forward. Keep the current outfit and facial expression.

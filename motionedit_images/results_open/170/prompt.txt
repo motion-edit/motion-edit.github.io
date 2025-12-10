@@ -1,0 +1,1 @@
+Make the robot raise its left arm to wave.

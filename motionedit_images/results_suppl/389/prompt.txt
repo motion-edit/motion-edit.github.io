@@ -1,0 +1,1 @@
+Transform the dynamic sword swinging action into a static parry, locking the swords between the two characters. The character on the right should be a skeleton in dark robes, and the human on the left should show a strained expression.
