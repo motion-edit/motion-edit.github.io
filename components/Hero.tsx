@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
               <Box size={18} />
               Model
             </a>
-            <a 
+            {/* <a 
               href="https://huggingface.co/spaces" 
               target="_blank"
               rel="noopener noreferrer"
@@ -89,8 +89,8 @@ const Hero: React.FC = () => {
             >
               <Rocket size={18} />
               Space
-            </a>
-            <a 
+            </a> */}
+            {/* <a 
               href="https://huggingface.co/datasets/elaine728/MotionEdit-Bench" 
               target="_blank"
               rel="noopener noreferrer"
@@ -98,7 +98,7 @@ const Hero: React.FC = () => {
             >
               <Database size={18} />
               Dataset
-            </a>
+            </a> */}
           </motion.div>
 
           <motion.p 
@@ -133,6 +133,17 @@ const Hero: React.FC = () => {
              </video>
           </div>
         </motion.div>
+
+        {/* 👇 NEW EXPLANATORY SENTENCE HERE 👇 */}
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="text-center text-small text-gray-500 font-small mb-4 max-w-7xl mx-auto"
+        >
+          * Images below showcase results from our <strong className="font-extrabold text-gray-600">MotionEdit</strong> model. Hover over any image to see the <span className="italic">Original Input Image</span> and the specific <span className="italic">Editing Prompt</span> used.
+        </motion.p>
+        {/* 👆 END OF NEW SENTENCE 👆 */}
 
         {/* Grid Gallery */}
         <div className="grid grid-cols-1 md:grid-cols-8 gap-4 md:gap-6 auto-rows-auto">
