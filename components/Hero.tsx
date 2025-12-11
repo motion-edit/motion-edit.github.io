@@ -127,7 +127,7 @@ const Hero: React.FC = () => {
                loop
                playsInline
              >
-                <source src="motionedit_images/motionedit_v2.mp4" type="video/mp4" />
+                <source src="motionedit_images/motionedit_v3.mp4" type="video/mp4" />
                 <div className="w-full h-full flex items-center justify-center text-white/50">
                   Video Placeholder
                 </div>
