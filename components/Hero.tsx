@@ -100,23 +100,13 @@ const Hero: React.FC = () => {
               Dataset
             </a> */}
           </motion.div>
-
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-xl font-light text-gray-600"
-          >
-            We introduce MotionEdit, a novel dataset and benchmark for motion-centric image editing. We also propose MotionNFT (Motion-guided Negative-aware FineTuning), a post-training framework with motion alignment rewards to guide models on motion editing task.
-          </motion.p>
         </div>
-
         {/* Video Block */}
         <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="max-w-4xl mx-auto mb-16 rounded-xl overflow-hidden shadow-2xl border border-gray-100 bg-black"
+            className="max-w-4xl mx-auto mb-24 rounded-xl overflow-hidden shadow-2xl border border-gray-100 bg-black"
         >
           <div className="aspect-video relative w-full">
              <video 
@@ -134,6 +124,23 @@ const Hero: React.FC = () => {
              </video>
           </div>
         </motion.div>
+        
+        <div className="w-full flex justify-center my-12">
+          <div className="h-px w-3/4 bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+        </div>
+        <div className="text-center max-w-6xl mx-auto mb-12 space-y-6">
+          <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="text-2xl font-light text-gray-600"
+            >
+              We introduce <strong className="font-extrabold text-gray-600">MotionEdit</strong>, a novel dataset and benchmark for motion-centric image editing. We also propose <strong className="font-extrabold text-gray-600">MotionNFT</strong> (Motion-guided Negative-aware FineTuning), a post-training framework with motion alignment rewards to guide models on motion editing task.
+          </motion.p>
+        </div>
+        <div className="w-full flex justify-center my-12">
+          <div className="h-px w-3/4 bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+        </div>
 
         {/* 👇 NEW EXPLANATORY SENTENCE HERE 👇 */}
         <motion.p
