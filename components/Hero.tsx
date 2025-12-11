@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
               Paper
             </a>
             <a 
-              href="https://motion-edit.github.io/" 
+              href="https://github.com/elainew728/motion-edit" 
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-blue-600/10 hover:bg-blue-600/20 font-medium transition-colors"
@@ -73,13 +73,13 @@ const Hero: React.FC = () => {
               Code
             </a>
             <a 
-              href="https://motion-edit.github.io/" 
+              href="https://huggingface.co/datasets/elaine1wan/MotionEdit-Bench" 
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-blue-600/10 hover:bg-blue-600/20 font-medium transition-colors"
             >
               <Box size={18} />
-              Model
+              Benchmark
             </a>
             {/* <a 
               href="https://huggingface.co/spaces" 
