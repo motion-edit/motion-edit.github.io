@@ -52,7 +52,7 @@ const DatasetPage: React.FC = () => {
             {/* 👇 REPLACE THE <p> TAG WITH THIS <ul> STRUCTURE 👇 */}
             <ul className="list-disc pl-5 space-y-2 text-gray-600 leading-relaxed">
               <li>
-                We first obtain a broad range of image pairs by segmenting collected videos from ShareVeo3 and Kling-AI into 3-second windows and sample the first and last frame of each segment.
+                We first obtain a broad range of image pairs by segmenting collected videos from <a href="https://huggingface.co/datasets/WenhaoWang/ShareVeo3" className="text-blue-600 hover:underline">ShareVeo3</a> and <a href="https://huggingface.co/datasets/nyuuzyou/klingai" className="text-blue-600 hover:underline">KlingAI</a> into 3-second windows and sample the first and last frame of each segment.
               </li>
               <li>
                 Next, we leverage a MLLM to evaluate each frame pair along three critical dimensions: Setting Consistency, Motion and Interaction Change, and Subject Integrity and Quality. The MLLM also outputs a binary keep/discard decision.
